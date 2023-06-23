@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/home.css">
+    <script defer src="/js/home.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="../index.html">Baas</a>
+            <a class="navbar-brand text-light show-user"></a>
+            <div class="col-7"></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-4 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="/html-pages/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page"
+                            href="/html-pages/message.html">message</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page"
+                            href="/html-pages/support.html">support</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dashboards
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item text-light" href="/html-pages/weather.html">Weather</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Game arcade</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Valuta</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Crypto</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card text-center">
+        <div class="card-header text-light">
+            <h3>Home</h3>
+            <h5 class="lh-lg">Welcome to the homepage of our website. On this website, you can find various dashboards on
+                different topics. <br>
+                Below you can see the dashboards that are available on this website. <br> Under each
+                dashboard, there is a brief explanation of what you can find there.</h5>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <div class="card h-100">
+                    <a href=""><img src="/img/download.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Game dashboard</h5>
+                        <p class="card-text">Here you can find the Game arcade dashboard. Here you can find your stats in different games</p>
+                        <a href="#" class="btn btn-primary">Go to dashboard</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="card h-100">
+                    <img src="/img/kaart (3).jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather dashboard</h5>
+                        <p class="card-text">Here you can find the weather dashboard. You can find here all sort of things about the weather</p>
+                        <a href="/html-pages/weather.html" class="btn btn-primary">Go to dashboard</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mt-3">
+                <div class="card h-100">
+                    <img src="/img/De-betekenis-van-valutarisico-bij-beleggen-FinanceMonkey-1024x683.jpg"  class="card-img-top"  width="" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Valuta dashboard</h5>
+                        <p class="card-text">Here you can find the dashboard about valuta. You can find the exchange rate of all sorts of money</p> 
+                        <a href="#" class="btn btn-primary">Go to dashboard</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 mt-3">
+                <div class="card h-100">
+                    <img src="/img/https___s3-newsifier (1).webp" class="card-img-top"  alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Crypto dashboard</h5>
+                        <p class="card-text">Here you can find the dashboard about crypto. You can see all sorts of cryptocurrencies here</p>
+                        <a href="" class="btn btn-primary">Go to dashboard</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
