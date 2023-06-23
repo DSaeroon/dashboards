@@ -16,7 +16,7 @@ const submitBtn = document.querySelector('.submit-btn');
 
             
             alert('Login successful!');
-            window.location.href = "/html-pages/home.html"
+            window.location.href = "html-pages/home.html"
             
         });
 
